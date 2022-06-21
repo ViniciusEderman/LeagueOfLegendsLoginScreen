@@ -66,6 +66,7 @@
     color: var(--mediumGrey);
     margin: 20px;
     cursor: text;
+    transition: all 200ms ease;
 }
 
 .input:focus {
