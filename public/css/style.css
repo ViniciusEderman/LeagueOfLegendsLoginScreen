@@ -22,4 +22,58 @@
 .login {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 100vh;
+    padding: clamp(35px, 8%, 70px);
+}
+
+.loginLogo {
+    width: 130px;
+    margin-bottom: 80px;
+}
+
+.loginTitle {
+    color: var(--deepGrey);
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.loginLabel {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    background-color: var(--lightGrey);
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9em;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deepGrey);
+}
+
+.loginLabel span {
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--mediumGrey);
+    margin: 20px;
+    cursor: text;
+}
+
+.input:focus {
+    background-color: var(--whiteSm);
+    border: 2px solid var(--deepGrey);
+}
+
+.loginLabel .spanActive {
+    font-size: 0.7em;
+    margin: 8px 10px;
 }
