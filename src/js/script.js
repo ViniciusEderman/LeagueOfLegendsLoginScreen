@@ -14,4 +14,6 @@ const handleFocusOut = ({ target }) => {
 input.forEach((input) => input.addEventListener('focus', handleFocus));
 input.forEach((input) => input.addEventListener('focusOut', handleFocusOut));
 
-//este código js não está funcionando
+// este código js não está funcionando
+// entender o que está acontecendo
+// resolver e testar para continuar com a estilização 
