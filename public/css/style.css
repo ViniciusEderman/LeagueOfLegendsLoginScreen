@@ -78,3 +78,37 @@
     font-size: 0.7em;
     margin: 8px 10px;
 }
+
+.loginIcons {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.loginIcons img {
+    width: 20px;
+}
+
+.iconsButton {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.loginIcons .iconsButton:nth-child(1) {
+    background-color: var(--blue);
+}
+
+.loginIcons .iconsButton:nth-child(2) {
+    background-color: var(--lightGrey);
+}
+
+.loginIcons .iconsButton:nth-child(3) {
+    background-color: var(--black)
+}
