@@ -112,3 +112,36 @@
 .loginIcons .iconsButton:nth-child(3) {
     background-color: var(--black)
 }
+
+.loginLabelCheckbox {
+    width: 100%;
+    margin: 15px 0 50px;
+    font-size: 0.9em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.inputCheckbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: var(--lightGrey);
+    margin-right: 8px;
+    border-radius: 3px;
+}
+
+.inputCheckbox:checked {
+    background-color: var(--red);
+}
+
+.inputCheckbox:checked::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: 3px solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    margin: 2px 6px;
+}
