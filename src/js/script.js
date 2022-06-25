@@ -20,9 +20,10 @@ const handleChange = () => {
         const userName = input[0];
         const password = input[1];
     */
-    if(userName.value && password.value.length >= 8) {
+
+    if (userName.value && password.value.length >= 8) {
         button.removeAttribute('disabled');
-    }
+    } 
     else {
         button.setAttribute('disabled', '');
     }
