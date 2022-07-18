@@ -32,3 +32,8 @@ const handleChange = () => {
 input.forEach((input) => input.addEventListener('focus', handleFocus));
 input.forEach((input) => input.addEventListener('focusOut', handleFocusOut));
 input.forEach((input) => input.addEventListener('input', handleChange));
+
+function Teste(soma) {
+    this.soma = soma;
+    soma = 500 + 350;
+};
